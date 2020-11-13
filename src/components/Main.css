@@ -97,10 +97,10 @@ body,
 
 .social-networks-link {
   color: white;
-  opacity: .8;
+  opacity: 0.8;
   display: inline-block;
   text-decoration: none;
-  transition: all .3s ease-in;
+  transition: all 0.3s ease-in;
   margin-right: 20px;
 }
 .social-networks-link:hover {
