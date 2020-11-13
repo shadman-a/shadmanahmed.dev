@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.b59fc1b0.chunk.css",
-    "main.js": "/static/js/main.d0f9035b.chunk.js",
-    "main.js.map": "/static/js/main.d0f9035b.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.bd876ca0.js",
-    "runtime-main.js.map": "/static/js/runtime-main.bd876ca0.js.map",
-    "static/js/2.4522470c.chunk.js": "/static/js/2.4522470c.chunk.js",
-    "static/js/2.4522470c.chunk.js.map": "/static/js/2.4522470c.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.b59fc1b0.chunk.css.map": "/static/css/main.b59fc1b0.chunk.css.map",
-    "static/js/2.4522470c.chunk.js.LICENSE.txt": "/static/js/2.4522470c.chunk.js.LICENSE.txt",
-    "static/media/Image.d48dfd4e.png": "/static/media/Image.d48dfd4e.png"
+    "main.css": "/shadmanahmed.dev/static/css/main.b59fc1b0.chunk.css",
+    "main.js": "/shadmanahmed.dev/static/js/main.d0f9035b.chunk.js",
+    "main.js.map": "/shadmanahmed.dev/static/js/main.d0f9035b.chunk.js.map",
+    "runtime-main.js": "/shadmanahmed.dev/static/js/runtime-main.40a574a7.js",
+    "runtime-main.js.map": "/shadmanahmed.dev/static/js/runtime-main.40a574a7.js.map",
+    "static/js/2.4522470c.chunk.js": "/shadmanahmed.dev/static/js/2.4522470c.chunk.js",
+    "static/js/2.4522470c.chunk.js.map": "/shadmanahmed.dev/static/js/2.4522470c.chunk.js.map",
+    "index.html": "/shadmanahmed.dev/index.html",
+    "static/css/main.b59fc1b0.chunk.css.map": "/shadmanahmed.dev/static/css/main.b59fc1b0.chunk.css.map",
+    "static/js/2.4522470c.chunk.js.LICENSE.txt": "/shadmanahmed.dev/static/js/2.4522470c.chunk.js.LICENSE.txt",
+    "static/media/Image.d48dfd4e.png": "/shadmanahmed.dev/static/media/Image.d48dfd4e.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.bd876ca0.js",
+    "static/js/runtime-main.40a574a7.js",
     "static/js/2.4522470c.chunk.js",
     "static/css/main.b59fc1b0.chunk.css",
     "static/js/main.d0f9035b.chunk.js"
