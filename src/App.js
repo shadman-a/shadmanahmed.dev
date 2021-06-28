@@ -2,21 +2,12 @@ import React from "react";
 import Main from "./components/Main";
 import logo from "./Image.png";
 import BackgroundAnimation from "./components/BackgroundAnimation";
+import "./components/Main.css";
 
 const App = () => (
-  <>
+  <div className="whole">
     <BackgroundAnimation />
     <Main
-      background={{
-        image:
-          "https://images.pexels.com/photos/3109830/pexels-photo-3109830.jpeg",
-        textColor: "#fff",
-        color: "black",
-        overlay: {
-          color: "#000",
-          opacity: ".1",
-        },
-      }}
       logo={{
         src: logo,
         alt: "logo",
@@ -31,10 +22,7 @@ const App = () => (
         },
       }}
       description={{
-        text: "React/JS Developer",
-        style: {
-          maxWidth: "440px",
-        },
+        text: "Fullstack Developer",
       }}
       links={[
         {
@@ -55,7 +43,7 @@ const App = () => (
         },
       ]}
     />
-  </>
+  </div>
 );
 
 export default App;

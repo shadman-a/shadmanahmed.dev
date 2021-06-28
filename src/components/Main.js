@@ -6,17 +6,15 @@ class Main extends React.Component {
     const { title, description, logo, links } = this.props;
 
     return (
-      <div className="whole">
+      <div>
         <div className="container">
           {logo.src && (
-            <div className="logo-container">
-              <img
-                className="logo"
-                alt={logo.alt}
-                src={logo.src}
-                style={{ ...logo.style }}
-              />
-            </div>
+            <img
+              className="logo"
+              alt={logo.alt}
+              src={logo.src}
+              style={{ ...logo.style }}
+            />
           )}
 
           {title.text && (
@@ -50,14 +48,6 @@ class Main extends React.Component {
                     style={{ ...social.imageStyle }}
                   />
                 )}
-                {social.text && (
-                  <span
-                    className="social-networks-text"
-                    style={{ ...social.textStyle }}
-                  >
-                    {social.text}
-                  </span>
-                )}
               </a>
             ))}
           </div>
@@ -68,13 +58,6 @@ class Main extends React.Component {
 }
 
 Main.defaultProps = {
-  background: {
-    image: "",
-    color: "",
-    textColor: "",
-    overlay: {},
-    style: {},
-  },
   logo: {
     src: "",
     alt: "",
@@ -92,9 +75,7 @@ Main.defaultProps = {
     {
       url: "",
       image: "",
-      text: "",
       imageStyle: {},
-      textStyle: {},
     },
   ],
 };
