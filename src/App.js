@@ -1,6 +1,10 @@
 import React from "react";
 import Main from "./components/Main";
 import logo from "./Image.png";
+import linkedin from "./linkedin.svg";
+import github from "./github.svg";
+import gmail from "./gmail.svg";
+import twitter from "./twitter.svg";
 import BackgroundAnimation from "./components/BackgroundAnimation";
 import "./components/Main.css";
 
@@ -27,19 +31,19 @@ const App = () => (
       links={[
         {
           url: "https://github.com/shadman-a",
-          image: "https://image.flaticon.com/icons/svg/733/733553.svg",
+          image: github,
         },
         {
           url: "https://twitter.com/talktoshad",
-          image: "https://image.flaticon.com/icons/svg/145/145812.svg",
+          image: twitter,
         },
         {
           url: "https://www.linkedin.com/in/ahmedshadman",
-          image: "https://image.flaticon.com/icons/svg/145/145807.svg",
+          image: linkedin,
         },
         {
           url: "mailto:ahmedshadman966@gmail.com",
-          image: "https://image.flaticon.com/icons/svg/732/732200.svg",
+          image: gmail,
         },
       ]}
     />
