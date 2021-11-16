@@ -32,18 +32,22 @@ const App = () => (
         {
           url: "https://github.com/shadman-a",
           image: github,
+          text: "Github"
         },
         {
           url: "https://twitter.com/talktoshad",
           image: twitter,
+          text: "Twitter"
         },
         {
           url: "https://www.linkedin.com/in/ahmedshadman",
           image: linkedin,
+          text: "LinkedIn"
         },
         {
           url: "mailto:ahmedshadman966@gmail.com",
           image: gmail,
+          text: "Email"
         },
       ]}
     />
